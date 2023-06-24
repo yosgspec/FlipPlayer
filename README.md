@@ -1,9 +1,9 @@
 # FlipPlayer.js
-Author: YOS G-spec (http://yosgspec.web.fc2.com/)
+Author: YOS G-spec (http://yosgspec.web.fc2.com/)  
 License: CC0 (パブリックドメイン)
 
 ## 概要
-画像をパラパラ漫画やスライドのように表示できるJavaScript用ライブラリです。
+画像をパラパラ漫画やスライドのように表示できるJavaScript用ライブラリです。  
 元々はParaFlaで作成したごくごく簡単なswfファイルを置き換えるために設計されました。
 
 ## 特徴
@@ -131,18 +131,18 @@ flip.stop() :FlipPlayer
 ```js
 flip.jump(index :number|string [, isReverse :boolean]) :FlipPlayer
 ```
-指定した画像のインデックスへフレームを切り替える。
-callbackオプションに与える関数内では適切に動作しない。
-インデックスには画像パスを指定することも可能。
-現在のインデックスから次に見つかった対象へジャンプする。
+指定した画像のインデックスへフレームを切り替える。  
+callbackオプションに与える関数内では適切に動作しない。  
+インデックスには画像パスを指定することも可能。  
+現在のインデックスから次に見つかった対象へジャンプする。  
 isReverseが真の場合は後ろから検索を行う。
 
 ```js
 flip.setIndex(index :number|string [, isReverse :boolean]) :FlipPlayer
 ```
-現在の画像のインデックスを切り替える。
-flip.jumpとは異なり、変更後のフレームが即時に反映されない。
-callbackオプションに与える関数内で使用できる。
+現在の画像のインデックスを切り替える。  
+flip.jumpとは異なり、変更後のフレームが即時に反映されない。  
+callbackオプションに与える関数内で使用できる。  
 インデックスに画像パスを設定した場合の検索処理はflip.jumpと同様。
 
 ```js
