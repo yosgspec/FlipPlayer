@@ -156,4 +156,4 @@ flip.count :number
 
 ## その他
 Author: YOS G-spec (http://yosgspec.web.fc2.com/)  
-License: CC0 (パブリックドメイン)
+License: Unlicense または CC0 (パブリックドメイン)
