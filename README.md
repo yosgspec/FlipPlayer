@@ -1,6 +1,5 @@
 # FlipPlayer.js
-Author: YOS G-spec (http://yosgspec.web.fc2.com/)  
-License: CC0 (パブリックドメイン)
+[動作サンプル](https://yosgspec.web.fc2.com/FlipPlayer/)
 
 ## 概要
 画像をパラパラ漫画やスライドのように表示できるJavaScript用ライブラリです。  
@@ -155,3 +154,6 @@ flip.count :number
 ```
 フレーム全体の枚数を取得する。
 
+## その他
+Author: YOS G-spec (http://yosgspec.web.fc2.com/)  
+License: CC0 (パブリックドメイン)
